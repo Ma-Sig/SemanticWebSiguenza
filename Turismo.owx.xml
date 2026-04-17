@@ -1,0 +1,2320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#" xml:base="http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" ontologyIRI="http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60">
+    <Prefix name="" IRI="http://www.semanticweb.org/mcall/ontologies/2024/0/untitled-ontology-60"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Actividad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActividadesCulturales"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActividadesDeEntretenimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActividadesDeportivas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgenciaDeTurismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alojamiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autobus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Avion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciudad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescNiños"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescPorTemporada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DescTerceraEdad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Descuento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestinoCultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestinoDeEntretenimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestinoDeportivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DestinoTuristico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femenino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glamping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotelDeLujo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HotelEconomico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lancha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Masculino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montaña"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaqueteCultural"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaqueteDeEntretenimiento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaqueteDeportivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaqueteTuristico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Playa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tren"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TuristaAdulto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TuristaAdultoMayor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TuristaMayorDeEdad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TuristaMenorDeEdad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ubicacion"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#compran"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#destino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esVendidoA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#genero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofrece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofreceActividad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofreceHospedaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofreceTransporte"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ofrecidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tiene"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneDescuento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vende"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#vendidoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#viajaCon"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#capacidad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#precioPaquete"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneAeropuerto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneDesc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneEstacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneEstacionTren"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneFecha"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneNombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tienePuerto"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tieneTerminal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#vendidoEnElMes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DescNiños"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DescPorTemporada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DescTerceraEdad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Femenino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masculino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadCultural1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadCultural2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agencia1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agencia2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#agencia3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#autobus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#avion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#barco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ciudad1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ciudad2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ciudad3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glamping1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glamping2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#glamping3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hotel6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montaña1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montaña2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#montaña3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#playa1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#playa2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#playa3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resort1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resort2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resort3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tren"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista11"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista13"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista17"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#turista9"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ActividadesCulturales"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActividadesDeEntretenimiento"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ActividadesDeportivas"/>
+        <Class IRI="#Actividad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autobus"/>
+        <Class IRI="#Transporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avion"/>
+        <Class IRI="#Transporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciudad"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescNiños"/>
+        <Class IRI="#Descuento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescPorTemporada"/>
+        <Class IRI="#Descuento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DescTerceraEdad"/>
+        <Class IRI="#Descuento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestinoCultural"/>
+        <Class IRI="#DestinoTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestinoDeEntretenimiento"/>
+        <Class IRI="#DestinoTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DestinoDeportivo"/>
+        <Class IRI="#DestinoTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femenino"/>
+        <Class IRI="#Genero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glamping"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotelDeLujo"/>
+        <Class IRI="#Hotel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HotelEconomico"/>
+        <Class IRI="#Hotel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lancha"/>
+        <Class IRI="#Transporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Masculino"/>
+        <Class IRI="#Genero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montaña"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaqueteCultural"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaqueteDeEntretenimiento"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaqueteDeportivo"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Playa"/>
+        <Class IRI="#Ubicacion"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resort"/>
+        <Class IRI="#Alojamiento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tren"/>
+        <Class IRI="#Transporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TuristaAdulto"/>
+        <Class IRI="#TuristaMayorDeEdad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TuristaAdultoMayor"/>
+        <Class IRI="#TuristaMayorDeEdad"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TuristaMayorDeEdad"/>
+        <Class IRI="#Turista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TuristaMenorDeEdad"/>
+        <Class IRI="#Turista"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#DescNiños"/>
+        <NamedIndividual IRI="#DescNiños"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DescPorTemporada"/>
+        <NamedIndividual IRI="#DescPorTemporada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DescTerceraEdad"/>
+        <NamedIndividual IRI="#DescTerceraEdad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Femenino"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Masculino"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesCulturales"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesCulturales"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesCulturales"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeEntretenimiento"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeEntretenimiento"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeEntretenimiento"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeportivas"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeportivas"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActividadesDeportivas"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#DescNiños"/>
+        <NamedIndividual IRI="#DescPorTemporada"/>
+        <NamedIndividual IRI="#DescTerceraEdad"/>
+        <NamedIndividual IRI="#Femenino"/>
+        <NamedIndividual IRI="#Masculino"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+        <NamedIndividual IRI="#agencia1"/>
+        <NamedIndividual IRI="#agencia2"/>
+        <NamedIndividual IRI="#agencia3"/>
+        <NamedIndividual IRI="#autobus"/>
+        <NamedIndividual IRI="#avion"/>
+        <NamedIndividual IRI="#barco"/>
+        <NamedIndividual IRI="#ciudad1"/>
+        <NamedIndividual IRI="#ciudad2"/>
+        <NamedIndividual IRI="#ciudad3"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <NamedIndividual IRI="#hotel2"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <NamedIndividual IRI="#hotel4"/>
+        <NamedIndividual IRI="#hotel5"/>
+        <NamedIndividual IRI="#hotel6"/>
+        <NamedIndividual IRI="#montaña1"/>
+        <NamedIndividual IRI="#montaña2"/>
+        <NamedIndividual IRI="#montaña3"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <NamedIndividual IRI="#playa1"/>
+        <NamedIndividual IRI="#playa2"/>
+        <NamedIndividual IRI="#playa3"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#tren"/>
+        <NamedIndividual IRI="#turista1"/>
+        <NamedIndividual IRI="#turista10"/>
+        <NamedIndividual IRI="#turista11"/>
+        <NamedIndividual IRI="#turista12"/>
+        <NamedIndividual IRI="#turista13"/>
+        <NamedIndividual IRI="#turista14"/>
+        <NamedIndividual IRI="#turista15"/>
+        <NamedIndividual IRI="#turista16"/>
+        <NamedIndividual IRI="#turista17"/>
+        <NamedIndividual IRI="#turista2"/>
+        <NamedIndividual IRI="#turista3"/>
+        <NamedIndividual IRI="#turista4"/>
+        <NamedIndividual IRI="#turista5"/>
+        <NamedIndividual IRI="#turista6"/>
+        <NamedIndividual IRI="#turista7"/>
+        <NamedIndividual IRI="#turista8"/>
+        <NamedIndividual IRI="#turista9"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#vende"/>
+        <NamedIndividual IRI="#agencia1"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#vende"/>
+        <NamedIndividual IRI="#agencia2"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#vende"/>
+        <NamedIndividual IRI="#agencia3"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <NamedIndividual IRI="#ciudad1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <NamedIndividual IRI="#playa1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+        <NamedIndividual IRI="#montaña2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+        <NamedIndividual IRI="#montaña1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+        <NamedIndividual IRI="#montaña3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+        <NamedIndividual IRI="#playa2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+        <NamedIndividual IRI="#playa3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <NamedIndividual IRI="#ciudad2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+        <NamedIndividual IRI="#ciudad3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+        <NamedIndividual IRI="#ciudad1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+        <NamedIndividual IRI="#ciudad2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+        <NamedIndividual IRI="#ciudad3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+        <NamedIndividual IRI="#ciudad1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+        <NamedIndividual IRI="#ciudad2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+        <NamedIndividual IRI="#ciudad3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <NamedIndividual IRI="#montaña1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <NamedIndividual IRI="#montaña2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <NamedIndividual IRI="#montaña3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <NamedIndividual IRI="#ciudad1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel2"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel2"/>
+        <NamedIndividual IRI="#ciudad1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <NamedIndividual IRI="#ciudad2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel4"/>
+        <NamedIndividual IRI="#ciudad2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#hotel5"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel5"/>
+        <NamedIndividual IRI="#ciudad3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#hotel6"/>
+        <NamedIndividual IRI="#ciudad3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <NamedIndividual IRI="#turista5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <NamedIndividual IRI="#turista1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <NamedIndividual IRI="#turista7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <NamedIndividual IRI="#turista2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <NamedIndividual IRI="#turista6"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#destino"/>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#resort1"/>
+        <NamedIndividual IRI="#playa1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#resort2"/>
+        <NamedIndividual IRI="#playa2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <NamedIndividual IRI="#resort3"/>
+        <NamedIndividual IRI="#playa3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista1"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista1"/>
+        <NamedIndividual IRI="#turista10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista1"/>
+        <NamedIndividual IRI="#turista11"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista1"/>
+        <NamedIndividual IRI="#turista8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista10"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista11"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista12"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista13"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista14"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista15"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista16"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista17"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista2"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista2"/>
+        <NamedIndividual IRI="#turista15"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista2"/>
+        <NamedIndividual IRI="#turista16"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista2"/>
+        <NamedIndividual IRI="#turista17"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista3"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista4"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista5"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista5"/>
+        <NamedIndividual IRI="#turista13"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista5"/>
+        <NamedIndividual IRI="#turista14"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista5"/>
+        <NamedIndividual IRI="#turista3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista6"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista6"/>
+        <NamedIndividual IRI="#turista9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista7"/>
+        <NamedIndividual IRI="#Femenino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista7"/>
+        <NamedIndividual IRI="#turista12"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#viajaCon"/>
+        <NamedIndividual IRI="#turista7"/>
+        <NamedIndividual IRI="#turista4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista8"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#genero"/>
+        <NamedIndividual IRI="#turista9"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadCultural1"/>
+        <Literal>Visitar museos y galerías de arte</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadCultural2"/>
+        <Literal>Recorrer sitios históricos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadCultural3"/>
+        <Literal>Probar la comida local</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento1"/>
+        <Literal>Parques temáticos y atracciones</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento2"/>
+        <Literal>Discotecas y vida nocturna</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeEntretenimiento3"/>
+        <Literal>Espectáculos en vivo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeportiva1"/>
+        <Literal>Senderismo y Trekking</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeportiva2"/>
+        <Literal>Deportes acuáticos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#actividadDeportiva3"/>
+        <Literal>Deportes de equipo o individuales</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#agencia1"/>
+        <Literal>SolCaribe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#agencia2"/>
+        <Literal>Travel Time Ecuador</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#agencia3"/>
+        <Literal>Cite Tour</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#autobus"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#avion"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">130</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#barco"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAeropuerto"/>
+        <NamedIndividual IRI="#ciudad1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#ciudad1"/>
+        <Literal>Cuenca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#ciudad1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAeropuerto"/>
+        <NamedIndividual IRI="#ciudad2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#ciudad2"/>
+        <Literal>Quito</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#ciudad2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneEstacionTren"/>
+        <NamedIndividual IRI="#ciudad3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#ciudad3"/>
+        <Literal>Alausi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#ciudad3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico1"/>
+        <Literal>Museo Pumapungo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico10"/>
+        <Literal>Playa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico11"/>
+        <Literal>Montaña</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico12"/>
+        <Literal>Pesca Deportiva</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico13"/>
+        <Literal>Sendero Quishuar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico14"/>
+        <Literal>kayak</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico15"/>
+        <Literal>parapente</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico2"/>
+        <Literal>Mitad del Mundo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico3"/>
+        <Literal>Monumento a la Libertad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico4"/>
+        <Literal>HideOut Disco Club</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico5"/>
+        <Literal>Casino S.A.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico6"/>
+        <Literal>Estacion Ferrocarril</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico7"/>
+        <Literal>Cuenca Tenis y Golf Club</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico8"/>
+        <Literal>Quito Tenis y Golf Club</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#destinoTuristico9"/>
+        <Literal>Senderismo Nariz del Diablo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">85.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#glamping1"/>
+        <Literal>El Sendero</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">92.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#glamping2"/>
+        <Literal>Llullu Llama Mountain Lodge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">115.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#glamping3"/>
+        <Literal>Secret Garden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">100.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel1"/>
+        <Literal>Four Points by Sheraton Cuenca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">37.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel2"/>
+        <Literal>Selina Cuenca</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">82.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel3"/>
+        <Literal>Wyndham Garden</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">22.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel4"/>
+        <Literal>Hotel David</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">89.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel5"/>
+        <Literal>Hotel Europa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#hotel6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">28.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#hotel6"/>
+        <Literal>Hotel Las Americas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#montaña1"/>
+        <Literal>El Cajas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#montaña1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#montaña2"/>
+        <Literal>Quilotoa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#montaña2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#montaña3"/>
+        <Literal>Volcan Cotopaxi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#montaña3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">350.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <NamedIndividual IRI="#paqueteTuristico1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">400.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <NamedIndividual IRI="#paqueteTuristico2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">275.3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <NamedIndividual IRI="#paqueteTuristico3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">12</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">240.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <NamedIndividual IRI="#paqueteTuristico4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">500.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <NamedIndividual IRI="#paqueteTuristico5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precioPaquete"/>
+        <NamedIndividual IRI="#paqueteTuristico6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">650.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAeropuerto"/>
+        <NamedIndividual IRI="#playa1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#playa1"/>
+        <Literal>Chipipe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tienePuerto"/>
+        <NamedIndividual IRI="#playa1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#playa1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneAeropuerto"/>
+        <NamedIndividual IRI="#playa2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#playa2"/>
+        <Literal>San Cristobal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tienePuerto"/>
+        <NamedIndividual IRI="#playa2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#playa3"/>
+        <Literal>Montañita</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tienePuerto"/>
+        <NamedIndividual IRI="#playa3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneTerminal"/>
+        <NamedIndividual IRI="#playa3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#resort1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">105.0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#resort1"/>
+        <Literal>Casablanca Chipipe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#resort2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">127.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#resort2"/>
+        <Literal>Playa Mann</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#precio"/>
+        <NamedIndividual IRI="#resort3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#double">98.5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#resort3"/>
+        <Literal>Montañita Estates</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#capacidad"/>
+        <NamedIndividual IRI="#tren"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista1"/>
+        <Literal>Mateo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">23</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista10"/>
+        <Literal>Carolina</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista11"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista11"/>
+        <Literal>Gabriela</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista12"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista12"/>
+        <Literal>Nicolas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista13"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista13"/>
+        <Literal>Beatriz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista14"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista14"/>
+        <Literal>Paola</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista15"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">26</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista15"/>
+        <Literal>Luis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista16"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista16"/>
+        <Literal>Carlos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista17"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista17"/>
+        <Literal>Daniel</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista2"/>
+        <Literal>Santiago</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista3"/>
+        <Literal>Sebastian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista4"/>
+        <Literal>Ismael</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">45</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista5"/>
+        <Literal>Mauricio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista6"/>
+        <Literal>Inessa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">73</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista7"/>
+        <Literal>Cenaida</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">32</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista8"/>
+        <Literal>Andres</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#edad"/>
+        <NamedIndividual IRI="#turista9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">22</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tieneNombre"/>
+        <NamedIndividual IRI="#turista9"/>
+        <Literal>Andres</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <ObjectProperty IRI="#ofrece"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofreceHospedaje"/>
+        <ObjectProperty IRI="#ofrece"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ofreceTransporte"/>
+        <ObjectProperty IRI="#ofrece"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#compran"/>
+        <ObjectProperty IRI="#esVendidoA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ofrece"/>
+        <ObjectProperty IRI="#ofrecidoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tiene"/>
+        <ObjectProperty IRI="#ubicadoEn"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#vende"/>
+        <ObjectProperty IRI="#vendidoPor"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#viajaCon"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#destino"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#genero"/>
+        <Class IRI="#Turista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alojamiento"/>
+            <Class IRI="#PaqueteTuristico"/>
+            <Class IRI="#Ubicacion"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofreceHospedaje"/>
+        <ObjectUnionOf>
+            <Class IRI="#PaqueteTuristico"/>
+            <Class IRI="#Ubicacion"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ofreceTransporte"/>
+        <ObjectUnionOf>
+            <Class IRI="#PaqueteTuristico"/>
+            <Class IRI="#Ubicacion"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneDescuento"/>
+        <ObjectUnionOf>
+            <Class IRI="#PaqueteTuristico"/>
+            <Class IRI="#Turista"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alojamiento"/>
+            <Class IRI="#DestinoTuristico"/>
+            <Class IRI="#Ubicacion"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#vende"/>
+        <Class IRI="#AgenciaDeTurismo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#viajaCon"/>
+        <Class IRI="#Turista"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#destino"/>
+        <Class IRI="#DestinoTuristico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esVendidoA"/>
+        <Class IRI="#Turista"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#genero"/>
+        <Class IRI="#Genero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofreceActividad"/>
+        <Class IRI="#Actividad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofreceHospedaje"/>
+        <Class IRI="#Alojamiento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ofreceTransporte"/>
+        <Class IRI="#Transporte"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneDescuento"/>
+        <Class IRI="#Descuento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEn"/>
+        <Class IRI="#Ubicacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEnCiudad"/>
+        <Class IRI="#Ciudad"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEnMontaña"/>
+        <Class IRI="#Montaña"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ubicadoEnPlaya"/>
+        <Class IRI="#Playa"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#vende"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#viajaCon"/>
+        <Class IRI="#Turista"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tieneAeropuerto"/>
+        <DataProperty IRI="#tieneEstacion"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tieneEstacionTren"/>
+        <DataProperty IRI="#tieneEstacion"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tieneNombre"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tienePuerto"/>
+        <DataProperty IRI="#tieneEstacion"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tieneTerminal"/>
+        <DataProperty IRI="#tieneEstacion"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#capacidad"/>
+        <Class IRI="#Transporte"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#edad"/>
+        <Class IRI="#Turista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precio"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alojamiento"/>
+            <Class IRI="#Glamping"/>
+            <Class IRI="#Hotel"/>
+            <Class IRI="#PaqueteCultural"/>
+            <Class IRI="#PaqueteDeEntretenimiento"/>
+            <Class IRI="#PaqueteDeportivo"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#precioPaquete"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneDesc"/>
+        <Class IRI="#Turista"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneEstacion"/>
+        <Class IRI="#Ubicacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneFecha"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tieneNombre"/>
+        <ObjectUnionOf>
+            <Class IRI="#Actividad"/>
+            <Class IRI="#AgenciaDeTurismo"/>
+            <Class IRI="#Alojamiento"/>
+            <Class IRI="#Turista"/>
+            <Class IRI="#Ubicacion"/>
+        </ObjectUnionOf>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <Class IRI="#PaqueteTuristico"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#capacidad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#edad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precio"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#precioPaquete"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneDesc"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneEstacion"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneFecha"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#tieneNombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#vendidoEnElMes"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
