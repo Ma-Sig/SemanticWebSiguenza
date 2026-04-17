@@ -1,0 +1,19 @@
+Options -MultiViews
+
+RewriteEngine On
+RewriteBase /
+
+# Forzar tipo RDF correctamente
+AddType application/rdf+xml .rdf
+
+# =========================
+# RECETA 1 (HASH)
+# =========================
+RewriteRule ^turismohash$ turismohash.rdf 
+
+# =========================
+# RECETA 2 (SLASH)
+# =========================
+
+RewriteRule ^turismoslash/.+ turismoslash/ [R=303]
+RewriteRule ^turismoslash/$ turismoslash.rdf 
